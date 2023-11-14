@@ -14,7 +14,7 @@ def get_factors(number):
         if (mod == 0):
             factor1 = number / divisor
             factor2 = divisor
-            return (factor1, factor2)
+            return (int(factor1), int(factor2))
         divisor += 1
 
 
